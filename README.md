@@ -17,6 +17,7 @@ committed to this repo, and no dependencies beyond the Python standard library.
 |------|--------------|
 | `generate_avatar_video.py` | End-to-end D-ID pipeline: create talk → poll render → download MP4. Uses D-ID's built-in Microsoft Neural TTS. |
 | `elevenlabs_voice.py` | Same video step, but the **voice provider is swapped** to ElevenLabs (script → ElevenLabs mp3 → upload to D-ID → video). |
+| `retry_demo.py` | Reliability machinery: job states, **retry with exponential backoff**, **duplicate prevention**, and a dead-letter state. Runs with zero API cost. |
 | `output_video.mp4` | A real video produced by the D-ID / Microsoft TTS path. |
 | `output_elevenlabs.mp4` | A real video produced by the ElevenLabs voice path. |
 | `.env.example` | The two environment variables you need. |

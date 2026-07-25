@@ -14,5 +14,8 @@ venv/
 output_video_v2.mp4
 # Note: output_video.mp4 and output_elevenlabs.mp4 are the committed demo artifacts.
 
+# Generated at runtime by retry_demo.py
+jobs_state.json
+
 # Local editor / tooling config
 .claude/
