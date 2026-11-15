@@ -19,3 +19,8 @@ jobs_state.json
 
 # Local editor / tooling config
 .claude/
+
+# Node / TestDriver
+node_modules/
+.testdriver/
+test-results/
